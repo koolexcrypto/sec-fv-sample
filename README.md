@@ -1,1 +1,1 @@
-# Security -> Formal Verification ->
+# Security: Formal Verification [Sample Contract]
