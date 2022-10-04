@@ -1,0 +1,17 @@
+{
+    "language": "Solidity",
+    "sources": {
+      "samplev2.sol": {
+        "urls": [
+          "/home/share/sample/v2/samplev2.sol"
+        ]
+      }
+    },
+    "settings": {
+      "outputSelection": {
+        "*": {
+          "*": ["*"]
+        }
+      }
+    }
+  }
