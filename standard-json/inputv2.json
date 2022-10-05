@@ -1,9 +1,9 @@
 {
     "language": "Solidity",
     "sources": {
-      "samplev2.sol": {
+      "nftv2.sol": {
         "urls": [
-          "/home/share/sec-fv-sample/contract/samplev2.sol"
+          "/home/share/sec-fv-sample/contract/nftv2.sol"
         ]
       }
     },
