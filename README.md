@@ -1,7 +1,7 @@
 # Security: Formal Verification using [Act](https://ethereum.github.io/act/introduction.html) [Simple NFT Contract]
 
 #### We have two versions of contract specification:
-- v1 doesn't check if minting reaches 3000 which is supposed to be the max supply of the NFTs. Therefore, Act indicates the behaviour of mint function violates this requirement. 
+- v1 doesn't check if minting reaches 3000 which is supposed to be the NFT max supply. Therefore, Act indicates the behaviour of mint function violates this requirement. 
 - v2 does check that. Thus, it passes the check!
 
 
