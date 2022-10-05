@@ -1,0 +1,23 @@
+constructor of NFTContract
+interface constructor()
+
+creates
+
+  uint totalSupply := 0
+
+
+behaviour mint of NFTContract
+interface mint(uint qty)
+
+iff
+
+  qty > 0 and qty < 5
+  qty + totalSupply <= 3000 // This condition is added to stop minting when reaching 3000 
+
+storage
+  
+  totalSupply =>  totalSupply + qty
+
+ensures 
+  // Ensure total Supply should never exceed 3000
+  post(totalSupply) <= 3000
