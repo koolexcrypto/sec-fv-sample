@@ -1,4 +1,12 @@
-# Security: Formal Verification [Sample Contract]
+# Security: Formal Verification [NFT Contract]
 
 
-## Commands
+## Run the following commands
+
+```sh
+act prove --file sec-fv-sample/spec/nftv1.act
+```
+
+Result:
+![NFTv1 verification result](https://github.com/koolexcrypto/sec-fv-sample/blob/main/images/act_prove_nftv1.jpg?raw=true)
+
