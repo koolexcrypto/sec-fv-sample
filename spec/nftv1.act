@@ -9,8 +9,10 @@ creates
 behaviour mint of NFTContract
 interface mint(uint qty)
 
+
 iff
 
+  CALLVALUE == 0
   qty > 0 and qty < 5
 
 storage

@@ -11,6 +11,7 @@ interface mint(uint qty)
 
 iff
 
+  CALLVALUE == 0
   qty > 0 and qty < 5
   qty + totalSupply <= 3000 // This condition is added to stop minting when reaching 3000 
 
